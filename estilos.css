@@ -1,0 +1,78 @@
+/*ESTILOS GENERALES*/
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.padre {
+    display: flex; 
+    flex-flow: column nowrap;
+} 
+    .header {
+        background-color: #000;
+        color: white;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu {
+            background-color: #5A639C;
+            display: flex;  
+        }
+            .logo {
+                background-color: #e2d0fa;
+                flex: 1 1 auto;
+            }
+            .nav {
+                background-color: #e2d0fa;
+                flex: 5 1 auto; 
+            }
+            .social {
+                background-color: #e2d0fa;
+                flex: 1 1 auto;
+            }
+        .texto-principal {
+            background-color: #E1AFD1;
+        }  
+            h1 {
+                background-color: #FFE6E6;
+            }  
+
+    .section {
+        background-color: #000;
+        display: flex; 
+    }
+        .articulos {
+            background-color: #F0A8D0;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+            .article {
+                background-color: #FFEBD4;
+                flex: 1 1 40%;
+            }
+            .navegacion {
+                background-color: #A2678A;
+                flex: 1 1 100%;
+            }
+        .aside {
+            background-color: #EB3678;
+            flex: 1 1 auto;
+        }    
+            .publicidad {
+                background-color: #F0A8D0;
+            }
+
+     .footer {
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+    }
+        .pie {
+            background-color: #5A639C;
+            flex: 1 1 100%;
+        }
+
+        
+       
+         
