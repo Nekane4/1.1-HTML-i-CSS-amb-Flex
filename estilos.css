@@ -22,6 +22,7 @@
                 background-color: #e2d0fa;
                 flex: 1 1 auto;
             }
+           
             .nav {
                 background-color: #e2d0fa;
                 flex: 5 1 auto; 
@@ -71,6 +72,18 @@
         .pie {
             background-color: #5A639C;
             flex: 1 1 100%;
+        }
+        
+        .logo:hover {
+            animation: tamaño-color 4s forwards ease-in-out; /* Añadir 'forwards' para que termine en el último frame */
+        }
+
+        @keyframes tamaño-color {
+            0%   { background-color: #e2d0fa; transform: scale(1);}
+            25%  { background-color: #F0A8D0;transform: scale(1.1); }
+            50%  { background-color: #e846d7; transform: scale(1.1);  } 
+            75%  { background-color: #b90606;  }
+            100% { background-color: #e2d0fa;transform: scale(1);  }
         }
     
     @media all and (max-width: 820px) { /*Punt de ruptura tablet ipad air*/
