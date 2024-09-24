@@ -72,6 +72,22 @@
             background-color: #5A639C;
             flex: 1 1 100%;
         }
+    
+    @media all and (max-width: 1024px) { /*Punt de ruptura a la mida de les tablet ipadPro*/
+        .section {
+            flex-direction: column; 
+        }
+        .menu {
+            flex-direction: column; 
+        }
+        .aside {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+        
 
         
        
