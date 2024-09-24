@@ -76,19 +76,37 @@
     @media all and (max-width: 820px) { /*Punt de ruptura tablet ipad air*/
         .section {
             flex-direction: column; 
+            background-color: aqua;
         }
         .menu {
             flex-direction: column; 
+            background-color: aquamarine;
         }
         .aside {
             display: flex;
             flex-direction: column;
+            background-color: blue;
         }
+        .padre {
+            background-color: chocolate;
+        }
+
     }
 
     @media all and (max-width: 500px) { /*Para los artículos he tenido que hacer un punto de ruptura superior o no me lo cogía. No entiendo Por qué*/
         .articulos { 
             flex-direction: column; 
+            background-color: blueviolet; 
+        }
+        
+        .section {
+            background-color: rgb(242, 137, 226);
+        }
+        .padre {
+            background-color:darkmagenta
+        }
+        .menu {
+            background-color:#A2678A;
         }
     }
     
@@ -96,11 +114,16 @@
        
         .aside {
             flex-direction: column; 
+            background-color: rgb(252, 14, 177);
         }
         .logo, .nav, .social {
-            width: 100%;          
+            width: 100%;  
+            background-color: #F0A8D0; 
+        }
+       
     }
-}
+    
+
 
         
 
